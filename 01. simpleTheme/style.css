@@ -18,7 +18,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 a{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 .container{
@@ -33,9 +33,25 @@ header{
     padding: 15px 0;
 }
 
+/* Button Design */
+.btn{
+    background: #000;
+    color: #fff;
+    padding: 10px 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* post thumbnails */
+.post-thumbnail img{
+    max-width: 100%;
+    height: auto;
+}
+
 /* article styles */
 .main h3{
     margin: 20px 0;
+    color: #000
 }
 
 .main .meta{
