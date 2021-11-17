@@ -1,0 +1,59 @@
+/*
+Theme Name: Simple Theme
+Theme URI: https://twitter.com/Nomanux
+Author: Muhammad Noman
+Author URI: https://twitter.com/Nomanux
+Description: This is another wordpress theme for practice.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+*, body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header{
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/* article styles */
+.main h3{
+    margin: 20px 0;
+}
+
+.main .meta{
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    margin: 20px 0;
+}
+
+article.post{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+/* Footer styles */
+footer{
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
